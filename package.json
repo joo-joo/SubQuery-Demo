@@ -23,14 +23,17 @@
   "license": "MIT",
   "devDependencies": {
     "@polkadot/api": "^12",
-    "@subql/types": "latest",
-    "typescript": "^5.2.2",
     "@subql/cli": "latest",
-    "@subql/testing": "latest",
     "@subql/node": "latest",
-    "dotenv": "latest"
+    "@subql/testing": "latest",
+    "@subql/types": "latest",
+    "dotenv": "latest",
+    "typescript": "^5.2.2"
   },
   "exports": {
     "chaintypes": "src/chaintypes.ts"
+  },
+  "dependencies": {
+    "@subql/types-core": "^2.0.0"
   }
 }
